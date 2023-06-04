@@ -1,11 +1,14 @@
 // TODO: Include packages needed for this application
+const fs = require('fs');
+const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
  {
  type: 'input',
  message: 'What is your GitHub username?',
- name: 'username',
+ name: 'github',
  }, 
  { 
  type: 'input',
@@ -26,7 +29,7 @@ const questions = [
  type: 'list',
  message: "Would you like a license to be within your project?",
  name: 'license',
- options: ['MIT','APACHE 2.0','GPL 3.0','BSD.3','N/A'],
+ options: ['MIT','APACHE 2.0','GNU 3.0','BSD.3','N/A'],
  },
  {
  type: 'input',
@@ -42,7 +45,7 @@ const questions = [
  },
  {
 type: 'input',
-message: "What does the user need to know about using a repo?",
+message: "What does the user need to know about using the app?",
 name: 'usage',
  },
  {
@@ -54,7 +57,9 @@ name: 'usage',
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+}
 
 // TODO: Create a function to initialize app
 function init() {}
