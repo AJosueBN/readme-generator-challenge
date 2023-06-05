@@ -56,15 +56,15 @@ name: 'usage',
  
 ];
 
-// TODO: Create a function to write README file
+// Function to generate README file 
 function writeToFile(fileName, data) {
 fs.writeFile(path.join(__dirname,'/example/',fileName),data, function(err){
     if(err) throw err;
-    console.log('Check for file')
+    console.log('The README.md file has successfully been generated "/')
 })
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then(answers => writeToFile('README.md' , generateMarkdown(answers)))
