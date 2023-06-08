@@ -1,9 +1,10 @@
+// Contains packages for application
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 const path = require('path');
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
  {
  type: 'input',
@@ -58,7 +59,7 @@ name: 'usage',
 
 // Function to generate README file 
 function writeToFile(fileName, data) {
-fs.writeFile(path.join(__dirname,'/example/',fileName),data, function(err){
+fs.writeFile(path.join(__dirname,'/sample/',fileName),data, function(err){
     if(err) throw err;
     console.log('The README.md file has successfully been generated "/')
 })
