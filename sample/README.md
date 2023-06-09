@@ -2,7 +2,7 @@
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  
+  Generating a README file through an Inquirer package.Technologies involved include Node and JS
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -15,7 +15,7 @@
   npm install
   ## Usage
   Additional info before using the app:
-  Install dependencies
+  Need to install dependencies
   ## Test
   To test run in the terminal, enter the command:
   npm test
@@ -23,8 +23,7 @@
   N/A
   ## License
   MIT
-  
-    The license used for this project is the MIT license
+  The license used for this project is the MIT license
   https://choosealicense.com/licenses/MIT
   ## Questions
   If you have any info about this project, prompt me through these details:

@@ -7,8 +7,8 @@ if (license != "N/A") {
 else return ''
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function that returns the license link
+// If there is no license, it returns an empty string
 function renderLicenseLink(license) {
   if(license != "N/A") {
   return `https://choosealicense.com/licenses/${license}`
@@ -16,8 +16,8 @@ function renderLicenseLink(license) {
 else return ''
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function that returns the license section of README
+// If there is no license, it returns an empty string
 function renderLicenseSection(license) {
   if(license != "N/A") {
     return `The license used for this project is the ${license} license`
@@ -25,7 +25,7 @@ function renderLicenseSection(license) {
   else return ''
 }
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
@@ -63,4 +63,5 @@ function generateMarkdown(data) {
 `;
 }
 
+// Gets data from this file and imports it into the index.js file
 module.exports = generateMarkdown;

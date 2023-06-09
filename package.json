@@ -2,7 +2,6 @@
   "name": "readme-generator",
   "version": "1.0.0",
   "description": "Creating a command-line application that  generates a README file from a user's input using the Inquirer package.",
-  
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +12,7 @@
     "inquirer": "^8.2.4"
   },
   "directories": {
-    "example": "example"
+    "sample": "sample"
   },
   "devDependencies": {},
   "repository": {
@@ -23,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/AJosueBN/week-9-readme-generator-challenge/issues"
   },
-  "homepage": "https://github.com/AJosueBN/week-9-readme-generator-challenge#readme"
+  "homepage": "https://github.com/AJosueBN/week-9-readme-generator-challenge#readme",
+  "keywords": []
 }

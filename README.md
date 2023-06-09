@@ -9,3 +9,5 @@
 - A badge icon appears at the top of the README file with the name of the license and it is also displayed within its own section
 - Can click on the various sections within the Table of Contents which will take the user into the corresponding section of the README
 - When the user enters an email address and their GitHub username, a link will appear on the README within the section titled Questions
+
+# Video of walkthrough for README Generator
