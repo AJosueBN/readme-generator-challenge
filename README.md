@@ -12,4 +12,5 @@
 
 # Video of walkthrough for README Generator
 
-[walkthrough video readme.zip](https://github.com/AJosueBN/week-9-readme-generator-challenge/files/11710180/walkthrough.video.readme.zip)
+
+[WALKTHROUGH VIDEO.zip](https://github.com/AJosueBN/week-9-readme-generator-challenge/files/11710341/WALKTHROUGH.VIDEO.zip)
