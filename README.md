@@ -11,3 +11,5 @@
 - When the user enters an email address and their GitHub username, a link will appear on the README within the section titled Questions
 
 # Video of walkthrough for README Generator
+
+[walkthrough video readme.zip](https://github.com/AJosueBN/week-9-readme-generator-challenge/files/11710180/walkthrough.video.readme.zip)
